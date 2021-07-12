@@ -1,0 +1,39 @@
+div{
+    padding-left: 20px;
+}
+#grid {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+body{
+    margin: 0px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+h1{
+    width: 100%;
+    font-size: 45px;
+    text-align: center;
+    border-bottom: 1px solid;
+    padding: 20px;
+    margin: 0px;
+}
+ol{
+    border-right: 1px solid;
+    display: inline-block;
+    margin: 0px;
+    padding: 30px;
+}
+@media(max-width:700px){
+    h1{
+        border-bottom: none;
+    }
+    ol{
+    border-right: none;
+    }
+    #grid{
+        display: block;
+    }
+}
